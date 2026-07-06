@@ -8,3 +8,10 @@ def load_data():
 
 if __name__ == "__main__":
     load_data()
+
+
+
+import pandas as pd
+
+def load_data():
+    return pd.read_csv("student_data.csv")
