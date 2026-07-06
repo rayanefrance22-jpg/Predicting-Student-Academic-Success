@@ -22,3 +22,4 @@ def clean_data(df):
 
 if __name__ == "__main__":
     print("Preprocessing module is ready.")
+clean_data(data)
